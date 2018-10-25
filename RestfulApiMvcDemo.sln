@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestfulApiMvcDemo", "RestfulApiMvcDemo\RestfulApiMvcDemo.csproj", "{FC8C6A2F-5004-4C09-B613-6C0EE6EB77D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC8C6A2F-5004-4C09-B613-6C0EE6EB77D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8C6A2F-5004-4C09-B613-6C0EE6EB77D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8C6A2F-5004-4C09-B613-6C0EE6EB77D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8C6A2F-5004-4C09-B613-6C0EE6EB77D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D9916A3-CC83-4C1C-9EFB-92E649D1F5C9}
+	EndGlobalSection
+EndGlobal
