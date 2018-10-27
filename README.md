@@ -104,6 +104,8 @@ The type-mappings can now be registered.
 
 - v1.0.0
   - Initial Release
+- v1.1.1
+  - Added page to display images, and modified code to make it less coupled.
 
 ## Author(s)
 
