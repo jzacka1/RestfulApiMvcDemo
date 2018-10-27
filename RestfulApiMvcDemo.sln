@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestfulApiMvcDemo", "RestfulApiMvcDemo\RestfulApiMvcDemo.csproj", "{FC8C6A2F-5004-4C09-B613-6C0EE6EB77D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestfulApi", "RestfulApi\RestfulApi.csproj", "{1C727DDE-A29D-44FA-8CE7-9662FD835A1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FC8C6A2F-5004-4C09-B613-6C0EE6EB77D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC8C6A2F-5004-4C09-B613-6C0EE6EB77D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC8C6A2F-5004-4C09-B613-6C0EE6EB77D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C727DDE-A29D-44FA-8CE7-9662FD835A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C727DDE-A29D-44FA-8CE7-9662FD835A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C727DDE-A29D-44FA-8CE7-9662FD835A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C727DDE-A29D-44FA-8CE7-9662FD835A1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

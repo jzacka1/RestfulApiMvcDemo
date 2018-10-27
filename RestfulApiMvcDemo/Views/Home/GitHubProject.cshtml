@@ -1,0 +1,39 @@
+﻿@model RestfulApi.Models.Repos
+
+@{
+    ViewBag.Title = "GitHubProject";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GitHubProject</h2>
+
+<div>
+    <h4>Repos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.html_url)
+        </dt>
+
+        <dd>
+            <a href="@Model.html_url">@Html.DisplayFor(model => model.html_url)</a>
+        </dd>
+
+    </dl>
+</div>

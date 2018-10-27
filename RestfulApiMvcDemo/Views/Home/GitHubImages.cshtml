@@ -1,0 +1,17 @@
+﻿@model IEnumerable<RestfulApi.Models.ImagesGitHub>
+
+@{
+    ViewBag.Title = "GitHubImages";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.ProjectName Images</h2>
+
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+        <h3>@item.name</h3>
+        <img src="@item.download_url" alt="@item.name" style="width:50%;height:50%;" />
+    }
+}
